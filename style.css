@@ -21,6 +21,26 @@
     "wdth" 100;
 }
 
+
+@layer utilities {
+  
+  .animate-spin {
+    animation: var(--animate-spin);
+  }
+  @keyframes spin {
+  to {
+      transform: rotate(360deg);
+     }
+ }
+
+}
+
+/* @keyframes spin {
+	0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+  
+} */
+
 /* Common Styles */
 .container{
     max-width: 1140px;
