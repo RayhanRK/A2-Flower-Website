@@ -1,20 +1,39 @@
-/* Common */
+
 * {
-  /* box-sizing: border-box; */
-  padding: 0;
-  margin: 0;
+  box-sizing: border-box;
+  /* padding: 0;
+  /* margin: 0; (As 0 property blocking responsiveness in small devices here that's why it is removed ) */
   font-family: "Inter", sans-serif;
 }
+
+/* google fonts */
 
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
+/* Common Styles */
 .container{
-    max-width: 1280px;
+    max-width: 1140px;
     margin: auto;
+}
+
+.grey{
+   color: rgba(0, 0, 0, 0.5);
+   font-size: 22px;
+}
+.grey-2{
+   color: rgba(0, 0, 0, 0.5);
+   font-size: 17px;
 }
 
 .btn{
@@ -33,4 +52,13 @@
   gap: 2rem;
   margin-top: 2.5rem;
   
+}
+
+/* banner custom styles */
+.ban-sec {
+  margin-top: 2rem;
+}
+
+.banner-des{
+  margin-top: 13px;
 }
