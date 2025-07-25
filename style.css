@@ -21,25 +21,21 @@
     "wdth" 100;
 }
 
+/* Animation Styles for smooth rotation */
+@keyframes smooth-spin {
+          0% {
+              transform: rotate(0deg);
+              }
 
-@layer utilities {
-  
-  .animate-spin {
-    animation: var(--animate-spin);
-  }
-  @keyframes spin {
-  to {
-      transform: rotate(360deg);
-     }
- }
+          100% {
+                transform: rotate(360deg);
+              }  
+        }
 
-}
+.rotation{
+          animation: smooth-spin 8s linear infinite;
+        }
 
-/* @keyframes spin {
-	0% {transform: rotate(0deg);}
-  100% {transform: rotate(360deg);}
-  
-} */
 
 /* Common Styles */
 .container{
