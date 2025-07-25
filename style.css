@@ -55,7 +55,7 @@
    color: rgba(0, 0, 0, 0.5);
    font-size: 17px;
 }
-/* As tailwind and external css conflict that's why here custom breakpoint is used make mobile responsive */
+/* As tailwind and external css conflict that's why here custom breakpoint is used to make mobile view responsive */
 
 @media (min-width: 768px) {
 .grey{
@@ -98,3 +98,5 @@
 .banner-des{
   margin-top: 13px;
 }
+
+/* Note: Intend to complete full web site with tailwind css but due to responsive issue I used some external raw css */
